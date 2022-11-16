@@ -30,7 +30,7 @@ func main() {
 	}
 	dictionary, err := newDictionary(file)
 	if err != nil {
-		exit("Error creating file")
+		exit("Error creating dictionary")
 	}
 
 	// game process
